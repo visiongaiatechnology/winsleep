@@ -16,7 +16,7 @@
 [![PowerShell](https://img.shields.io/badge/PowerShell-5.1+-5391FE?style=for-the-badge&logo=powershell)](https://learn.microsoft.com/en-us/powershell/)
 [![Status](https://img.shields.io/badge/Status-PLATIN-silver?style=for-the-badge)](#)
 [![VGT](https://img.shields.io/badge/VGT-VisionGaiaTechnology-red?style=for-the-badge)](https://visiongaiatechnology.de)
-[![License](https://img.shields.io/badge/License-Proprietary-red?style=for-the-badge)](#)
+[![License](https://img.shields.io/badge/License-AGPLv3-red?style=for-the-badge)](#)
 
 **HARD SLEEP · ZERO RUNTIME DEPENDENCIES · TRAY-RESIDENT**
 
