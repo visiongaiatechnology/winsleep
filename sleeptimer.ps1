@@ -2,18 +2,35 @@
 #requires -version 5.1
 <#
 .SYNOPSIS
-    VGT Power Sleep Timer — Dark UI, Tray-Hide, movable borderless window.
-
-.DESCRIPTION
-    - Windows Sleep via PowrProf.dll / SetSuspendState
-    - Re-run-safe Add-Type loading
-    - Modern Dark UI
-    - Runtime duration editing
-    - Correct non-rounding time math
-    - Hide/show via tray icon
-    - Movable borderless UI
-    - DoubleBuffered fixed via C# Form subclass
+# ==============================================================================
+# VISIONGAIATECHNOLOGY: VGT Power Sleep Timer
+# STATUS: Stable
+# ARCHITEKTUR: PowerShell
+# ZWECK: Schlafenstimer - Sleeptimer
+# ==============================================================================
+# 
+# Copyright (c) 2026 VISIONGAIATECHNOLOGY
+# 
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+# 
+# The above copyright notice and this permission notice shall be included in all
+# copies or substantial portions of the Software.
+# 
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+# SOFTWARE.
+# ==============================================================================
 #>
+
 
 param(
     [double]$DurationHours = 3
