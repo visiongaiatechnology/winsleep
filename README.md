@@ -81,12 +81,12 @@ VGT Power Sleep Timer:
 
 ```powershell
 # Default: 3 hours
-.\VGT-SleepTimer.ps1
+.\sleeptimer.ps1
 
 # Custom duration
-.\VGT-SleepTimer.ps1 -DurationHours 1.5
-.\VGT-SleepTimer.ps1 -DurationHours 0.5    # 30 minutes
-.\VGT-SleepTimer.ps1 -DurationHours 8      # 8 hours
+.\sleeptimer.ps1 -DurationHours 1.5
+.\sleeptimer.ps1 -DurationHours 0.5    # 30 minutes
+.\sleeptimer.ps1 -DurationHours 8      # 8 hours
 ```
 
 ### Execution Policy
@@ -94,7 +94,7 @@ VGT Power Sleep Timer:
 If PowerShell blocks the script, run once with:
 
 ```powershell
-powershell.exe -ExecutionPolicy Bypass -File ".\VGT-SleepTimer.ps1" -DurationHours 2
+powershell.exe -ExecutionPolicy Bypass -File ".\sleeptimer.ps1" -DurationHours 2
 ```
 
 Or set permanently for your user:
