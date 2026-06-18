@@ -68,12 +68,10 @@ VGT Power Sleep Timer:
 
 ## 🖥️ UI Layout
 
-```
+
 
 <img width="537" height="377" alt="image" src="https://github.com/user-attachments/assets/00eb48ae-6fd0-470f-9c0e-55fd81bb14e8" />
 
-
-```
 
 ---
 
